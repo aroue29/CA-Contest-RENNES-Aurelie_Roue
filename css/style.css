@@ -17,9 +17,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    color: #333;
+    font-family: Arial;
+    font-weight: 400;
+    color: #392d4e;
 }
 
 
@@ -30,7 +30,7 @@ p {
     margin-bottom: 25px;
 }
 
-.center {
+.centered {
     text-align: center;
 }
 
@@ -38,7 +38,7 @@ p {
 /* Liens */
 
 a {
-    color: #1abc9c;
+    color: #b886c7;
     word-wrap: break-word;
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -49,7 +49,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color: #b886c7;
     text-decoration: none;
     outline: 0;
 }
@@ -63,7 +63,7 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-linkbox {
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -90,7 +90,7 @@ linkbox {
 }
 
 #topbar-inner {
-    background: #111;
+    background: #221b2e;
     line-height: 0;
     text-align: center;
 }
@@ -100,7 +100,7 @@ linkbox {
     position: relative;
     margin: 0;
     padding: 0;
-    border-right: 1px solid #222;
+    border-right: 1px solid rgb(12, 12, 12);
     zoom: 1;
     *display: inline;
 }
@@ -116,33 +116,36 @@ linkbox {
     font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
     padding: 18px 20px 18px 20px;
-    border-left: 1px solid #222;
+    border-left: 1px solid rgb(12, 12, 12);
 }
 
 #section-topbar ul#nav a:focus {
-    background: #111;
+    background: #34495e;
     text-decoration: none;
     border-left: 1px solid #111;
 }
 
 #section-topbar ul#nav a:hover {
-    background: #222;
+    background: #34495e;
     text-decoration: none;
     border-left: 1px solid #111;
 }
 
 #section-topbar ul#nav .active a {
-    background: #44bbaa;
+    background: #85b5d1;
     border-left: 1px solid #111;
 }
 
 #section-topbar ul#nav .active a:hover {
-    background: #44bbaa;
+    background: #85b5d1;
 }
 
 #section-topbar i {
     font-size: 25px;
 }
+
+
+/*SECTION WRAPS*/
 
 
 /* Header Wrap */
@@ -180,7 +183,7 @@ linkbox {
 /* Intro Wrap */
 
 #intro {
-    background: #2c3e50;
+    background: #392d4e;
     padding-top: 60px;
     padding-bottom: 60px;
     color: white;
@@ -199,7 +202,7 @@ p {
 }
 
 #skillswrap {
-    background: #2c3e50;
+    background: #392d4e;
     padding-top: 60px;
     padding-bottom: 60px;
     color: white;
@@ -211,7 +214,7 @@ p {
 }
 
 #footwrap {
-    background: #2f2f2f;
+    background: #392d4e;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -237,7 +240,7 @@ p {
 /* Copyright Wrap */
 
 #copyrights {
-    background: #222222;
+    background: #221b2e;
     padding: 20px 0;
     text-align: center;
     color: #fff;
@@ -252,12 +255,15 @@ p {
     color: #999;
 }
 
+
+/* Valeurs globales */
+
 .desc {
     padding-top: 50px;
 }
 
 .desc p {
-    color: #2f2f2f;
+    color: #34495e;
 }
 
 .desc t {
@@ -268,7 +274,7 @@ p {
 .desc imp {
     padding: 6px;
     color: white;
-    background: #34495e;
+    background: #392d4e;
 }
 
 .desc more {
@@ -300,7 +306,7 @@ sm {
 }
 
 .contact-form .form-send button {
-    background: #5db3ec;
+    background: #85b5d1;
     border: 0;
     padding: 10px 30px;
     color: #fff;
@@ -309,12 +315,12 @@ sm {
 }
 
 .contact-form .form-send button:hover {
-    background: #707ed1;
+    background: #85b5d1;
 }
 
-.contact-form .valide {
+.contact-form .validate {
     display: none;
-    color: rgb(35, 42, 107);
+    color: rgb(255, 0, 200);
     margin: 0 0 15px 0;
     font-weight: 400;
     font-size: 13px;
@@ -335,7 +341,7 @@ sm {
     border-radius: 50%;
     width: 24px;
     height: 24px;
-    border: 3px solid #18d26e;
+    border: 3px solid #fa06ee;
     border-top-color: #eee;
     -webkit-animation: animate-loading 1s linear infinite;
     animation: animate-loading 1s linear infinite;
@@ -366,7 +372,7 @@ sm {
 .contact-form .error-message {
     display: none;
     color: #fff;
-    background: #f08162;
+    background: #f105ab;
     text-align: center;
     padding: 15px;
     font-weight: 600;
@@ -376,7 +382,7 @@ sm {
 .contact-form .sent-message {
     display: none;
     color: #fff;
-    background: #6fb490;
+    background: #6132cf;
     text-align: center;
     padding: 15px;
     font-weight: 600;

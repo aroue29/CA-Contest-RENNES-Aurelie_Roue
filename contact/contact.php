@@ -1,5 +1,5 @@
 <?php
-  if( file_exists($php_mail_form_library = '../libraries/php-mail-form/php-mail-form.php' )) {
+  if( file_exists($php_mail_form_library = '../libraries/php-mail-form' )) {
     include( $php_mail_form_library );
   } else {
     die( 'Impossible de charger cette librairie !');

@@ -17,11 +17,11 @@ jQuery(document).ready(function($) {
     });
 
     var contentData = [{
-            value: 70,
-            color: "#1abc9c"
+            value: 60,
+            color: "rgb(79, 92, 206)"
         },
         {
-            value: 30,
+            value: 40,
             color: "#ecf0f1"
         }
     ];
@@ -29,20 +29,20 @@ jQuery(document).ready(function($) {
 
 
     var contentData = [{
-            value: 90,
-            color: "#1abc9c"
+            value: 70,
+            color: "rgb(79, 92, 206)"
         },
         {
-            value: 10,
+            value: 30,
             color: "#ecf0f1"
         }
     ];
-    var mycontent = new Chart(document.getElementById("bootstrap").getContext("2d")).Content(contentData);
+    var mycontent = new Chart(document.getElementById("sql").getContext("2d")).Content(contentData);
 
 
     var contentData = [{
             value: 65,
-            color: "#1abc9c"
+            color: "rgb(79, 92, 206)"
         },
         {
             value: 35,
@@ -52,11 +52,11 @@ jQuery(document).ready(function($) {
     var mycontent = new Chart(document.getElementById("java").getContext("2d")).Content(contentData);
 
     var contentData = [{
-            value: 80,
-            color: "#1abc9c"
+            value: 45,
+            color: "rgb(79, 92, 206)"
         },
         {
-            value: 20,
+            value: 55,
             color: "#ecf0f1"
         }
     ];
@@ -64,11 +64,11 @@ jQuery(document).ready(function($) {
 
 
     var contentData = [{
-            value: 70,
-            color: "#1abc9c"
+            value: 35,
+            color: "rgb(79, 92, 206)"
         },
         {
-            value: 30,
+            value: 65,
             color: "#ecf0f1"
         }
     ];
@@ -77,7 +77,7 @@ jQuery(document).ready(function($) {
 
     var contentData = [{
             value: 50,
-            color: "#1abc9c"
+            color: "rgb(79, 92, 206)"
         },
         {
             value: 50,
