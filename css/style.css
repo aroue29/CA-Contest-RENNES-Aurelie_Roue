@@ -151,7 +151,7 @@ hr {
 /* Header Wrap */
 
 #headerwrap {
-    background: url(../img/header.jpg) no-repeat center top;
+    background: url(../asset/img/header.jpg) no-repeat center top;
     margin-top: 60px;
     padding-top: 140px;
     text-align: center;
@@ -315,7 +315,7 @@ sm {
 }
 
 .contact-form .form-send button:hover {
-    background: #85b5d1;
+    background: #44bbaa;
 }
 
 .contact-form .validate {
