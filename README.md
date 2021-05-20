@@ -6,7 +6,7 @@ Ce projet a pour but principal de créer un template de portfolio afin de mettre
 Il est réalisé dans le cadre d'un examen lors de la première année de bachelor informatique au sein de Campus Academy.
 
 ## Installation
-Après avoir clôner le projet ou télécharger le dossier, il suffit de double-cliquer sur le fichier index.html (situé à la racine du dossier). Cela ouvrira votre navigateur par défaut, avec la page d'accueil du projet.
+Après avoir cloner le projet ou télécharger le dossier, il vous suffit de double-cliquer sur le fichier index.html (situé à la racine du dossier). Cela ouvrira votre navigateur par défaut, avec la page d'accueil du projet.
 
 ## Technologies
 * HTML 5

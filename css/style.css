@@ -19,7 +19,7 @@ h5,
 h6 {
     font-family: Arial;
     font-weight: 400;
-    color: #392d4e;
+    color: #470303;
 }
 
 
@@ -30,7 +30,7 @@ p {
     margin-bottom: 25px;
 }
 
-.centered {
+.center {
     text-align: center;
 }
 
@@ -38,7 +38,7 @@ p {
 /* Liens */
 
 a {
-    color: #b886c7;
+    color: #c78686;
     word-wrap: break-word;
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -90,7 +90,7 @@ hr {
 }
 
 #topbar-inner {
-    background: #221b2e;
+    background: #200202;
     line-height: 0;
     text-align: center;
 }
@@ -120,24 +120,24 @@ hr {
 }
 
 #section-topbar ul#nav a:focus {
-    background: #34495e;
+    background: #bd2828;
     text-decoration: none;
     border-left: 1px solid #111;
 }
 
 #section-topbar ul#nav a:hover {
-    background: #34495e;
+    background: #313131;
     text-decoration: none;
     border-left: 1px solid #111;
 }
 
 #section-topbar ul#nav .active a {
-    background: #85b5d1;
+    background: #2b2a2a;
     border-left: 1px solid #111;
 }
 
 #section-topbar ul#nav .active a:hover {
-    background: #85b5d1;
+    background: #2b2a2a;
 }
 
 #section-topbar i {
@@ -171,11 +171,14 @@ hr {
 
 #headerwrap h1 {
     font-size: 80px;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 3px 3px #000000a3;
     color: white;
 }
 
 #headerwrap h3 {
     font-size: 20px;
+    text-shadow: 1px 1px #000000a3;
     color: white;
 }
 
@@ -183,7 +186,7 @@ hr {
 /* Intro Wrap */
 
 #intro {
-    background: #392d4e;
+    background: #550303;
     padding-top: 60px;
     padding-bottom: 60px;
     color: white;
@@ -202,7 +205,7 @@ p {
 }
 
 #skillswrap {
-    background: #392d4e;
+    background: #550303;
     padding-top: 60px;
     padding-bottom: 60px;
     color: white;
@@ -214,7 +217,7 @@ p {
 }
 
 #footwrap {
-    background: #392d4e;
+    background: #550303;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -240,7 +243,7 @@ p {
 /* Copyright Wrap */
 
 #copyrights {
-    background: #221b2e;
+    background: #200202;
     padding: 20px 0;
     text-align: center;
     color: #fff;
@@ -263,22 +266,22 @@ p {
 }
 
 .desc p {
-    color: #34495e;
+    color: #bd2828;
 }
 
 .desc t {
-    color: #34495e;
+    color: #bd2828;
     font-weight: 700;
 }
 
 .desc imp {
     padding: 6px;
     color: white;
-    background: #392d4e;
+    background: #470303;
 }
 
 .desc more {
-    color: #95a5a6;
+    color: #4d4c4c;
 }
 
 sm {
@@ -306,7 +309,7 @@ sm {
 }
 
 .contact-form .form-send button {
-    background: #85b5d1;
+    background: #2b2a2a;
     border: 0;
     padding: 10px 30px;
     color: #fff;
@@ -315,15 +318,7 @@ sm {
 }
 
 .contact-form .form-send button:hover {
-    background: #44bbaa;
-}
-
-.contact-form .validate {
-    display: none;
-    color: rgb(255, 0, 200);
-    margin: 0 0 15px 0;
-    font-weight: 400;
-    font-size: 13px;
+    background: #f59d9d;
 }
 
 .contact-form .loading {

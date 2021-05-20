@@ -16,73 +16,43 @@ jQuery(document).ready(function($) {
         interval: 3500
     });
 
-    var contentData = [{
-            value: 60,
-            color: "rgb(79, 92, 206)"
-        },
-        {
-            value: 40,
-            color: "#ecf0f1"
-        }
-    ];
-    var mycontent = new Chart(document.getElementById("javascript").getContext("2d")).Content(contentData);
+    let competences = [{
+        id: "javascript",
+        value: 30,
+        label: "Javascript"
+    }, {
+        id: "sql",
+        value: 30,
+        label: "Sql"
+    }, {
+        id: "java",
+        value: 30,
+        label: "Java"
+    }, {
+        id: "html",
+        value: 40,
+        label: "HTML & CSS"
+    }, {
+        id: "php",
+        value: 60,
+        label: "PHP"
+    }, {
+        id: "python",
+        value: 50,
+        label: "Python"
+    }];
 
-
-    var contentData = [{
-            value: 70,
-            color: "rgb(79, 92, 206)"
-        },
-        {
-            value: 30,
-            color: "#ecf0f1"
-        }
-    ];
-    var mycontent = new Chart(document.getElementById("sql").getContext("2d")).Content(contentData);
-
-
-    var contentData = [{
-            value: 65,
-            color: "rgb(79, 92, 206)"
-        },
-        {
-            value: 35,
-            color: "#ecf0f1"
-        }
-    ];
-    var mycontent = new Chart(document.getElementById("java").getContext("2d")).Content(contentData);
-
-    var contentData = [{
-            value: 45,
-            color: "rgb(79, 92, 206)"
-        },
-        {
-            value: 55,
-            color: "#ecf0f1"
-        }
-    ];
-    var mycontent = new Chart(document.getElementById("html").getContext("2d")).Content(contentData);
-
-
-    var contentData = [{
-            value: 35,
-            color: "rgb(79, 92, 206)"
-        },
-        {
-            value: 65,
-            color: "#ecf0f1"
-        }
-    ];
-    var mycontent = new Chart(document.getElementById("php").getContext("2d")).Content(contentData);
-
-
-    var contentData = [{
-            value: 50,
-            color: "rgb(79, 92, 206)"
-        },
-        {
-            value: 50,
-            color: "#ecf0f1"
-        }
-    ];
-    var mycontent = new Chart(document.getElementById("python").getContext("2d")).Content(contentData);
+    competences.forEach(element => {
+        let contentData = [{
+                value: 100 - element.value,
+                color: "rgb(79, 92, 206)"
+            },
+            {
+                value: element.value,
+                color: "#ecf0f1"
+            }
+        ];
+        new Chart(document.querySelector("#" + element.id + ">canvas").getContext("2d")).Content(contentData);
+        document.querySelector("#" + element.id + ">p").innerHTML = element.label + " " + element.value + "%"
+    });
 });
