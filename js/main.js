@@ -45,7 +45,7 @@ jQuery(document).ready(function($) {
     competences.forEach(element => {
         let contentData = [{
                 value: 100 - element.value,
-                color: "rgb(79, 92, 206)"
+                color: "rgb(24, 23, 23)"
             },
             {
                 value: element.value,

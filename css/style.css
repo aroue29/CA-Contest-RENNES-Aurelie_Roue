@@ -49,7 +49,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #b886c7;
+    color: #f5a0a0;
     text-decoration: none;
     outline: 0;
 }
@@ -126,7 +126,7 @@ hr {
 }
 
 #section-topbar ul#nav a:hover {
-    background: #313131;
+    background: #2b2a2a;
     text-decoration: none;
     border-left: 1px solid #111;
 }
@@ -142,6 +142,28 @@ hr {
 
 #section-topbar i {
     font-size: 25px;
+}
+
+
+/*Carousel*/
+
+.slideshow {
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+    border: 3px solid #F2F2F2;
+}
+
+.slideshow ul {
+    width: 400%;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.slideshow li {
+    float: left;
 }
 
 
@@ -236,7 +258,7 @@ p {
 
 #footwrap i {
     padding-right: 8px;
-    color: #1abc9c;
+    color: #ff0505;
 }
 
 
@@ -323,23 +345,11 @@ sm {
 
 .contact-form .loading {
     display: none;
-    color: #555;
+    color: rgb(24, 23, 23);
     background: #fff;
     text-align: center;
     padding: 15px;
     margin: 15px 0;
-}
-
-.contact-form .loading:before {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    border: 3px solid #fa06ee;
-    border-top-color: #eee;
-    -webkit-animation: animate-loading 1s linear infinite;
-    animation: animate-loading 1s linear infinite;
 }
 
 @-webkit-keyframes animate-loading {
@@ -362,24 +372,4 @@ sm {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
-}
-
-.contact-form .error-message {
-    display: none;
-    color: #fff;
-    background: #f105ab;
-    text-align: center;
-    padding: 15px;
-    font-weight: 600;
-    margin: 15px 0;
-}
-
-.contact-form .sent-message {
-    display: none;
-    color: #fff;
-    background: #6132cf;
-    text-align: center;
-    padding: 15px;
-    font-weight: 600;
-    margin: 15px 0;
 }
