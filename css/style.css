@@ -73,9 +73,7 @@ hr {
 }
 
 
-/*---------------------------------------------------
-3.1 Topbar
----------------------------------------------------*/
+/*Topbar*/
 
 #section-topbar {
     position: fixed;
@@ -147,11 +145,6 @@ hr {
 }
 
 
-/*---------------------------------------------------
-SECTION WRAPS
----------------------------------------------------*/
-
-
 /* Header Wrap */
 
 #headerwrap {
@@ -184,7 +177,7 @@ SECTION WRAPS
 }
 
 
-/* Intnro Wrap */
+/* Intro Wrap */
 
 #intro {
     background: #2c3e50;
@@ -287,7 +280,7 @@ sm {
 }
 
 
-/* Contact Form */
+/* Formulaire de contact */
 
 .contact-form label {
     color: #999;
@@ -373,7 +366,7 @@ sm {
 .contact-form .error-message {
     display: none;
     color: #fff;
-    background: #ed3c0d;
+    background: #f08162;
     text-align: center;
     padding: 15px;
     font-weight: 600;
