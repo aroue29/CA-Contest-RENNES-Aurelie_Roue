@@ -1,6 +1,6 @@
 body {
     background-color: #f2f2f2;
-    font-family: "Lato";
+    font-family: Helvetica;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Raleway";
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     color: #333;
 }
@@ -30,7 +30,7 @@ p {
     margin-bottom: 25px;
 }
 
-.centered {
+.center {
     text-align: center;
 }
 
@@ -63,7 +63,7 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-hr {
+linkbox {
     display: block;
     height: 1px;
     border: 0;
@@ -312,7 +312,7 @@ sm {
     background: #707ed1;
 }
 
-.contact-form .validate {
+.contact-form .valide {
     display: none;
     color: rgb(35, 42, 107);
     margin: 0 0 15px 0;

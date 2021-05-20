@@ -39,7 +39,7 @@
 
     <div id="headerwrap">
         <div class="container">
-            <div class="row centered">
+            <div class="row center">
                 <div class="col-lg-12">
                     <h1>Prénom Nom</h1>
                     <h3>Poste actuel | contact@example.com</h3>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="col-lg-3">
                         <p><a href="#"><i class="icon-file"></i></a>
-                            <sm>DOWNLOAD PDF</sm>
+                            <sm>DOWNLOAD CV</sm>
                         </p>
                     </div>
 
@@ -120,7 +120,7 @@
 
             </div>
             <br>
-            <hr>
+            <linkbox>
         </div>
     </section>
 
@@ -163,7 +163,7 @@
             </div>
         </div>
         <br>
-        <hr>
+        <linkbox>
     </div>
 
 
@@ -175,7 +175,7 @@
             </div>
             <div class="col-lg-6">
                 <p>
-                    <t>...</t><br/> Exemple Site <br/>
+                    <t>...</t><br/> Exemple <br/>
                 </p>
             </div>
             <div class="col-lg-3">
@@ -186,7 +186,7 @@
 
             <div class="col-lg-6 col-lg-offset-3">
                 <p>
-                    <t>...</t><br/>Exemple Site
+                    <t>...</t><br/>Exemple <br/>
                 </p>
                 <p>
                     <more>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -211,33 +211,33 @@
                 <div class="col-lg-2 col-lg-offset-1">
                     <h5>COMPETENCES</h5>
                 </div>
-                <div class="col-lg-3 centered">
+                <div class="col-lg-3 center">
                     <canvas id="javascript" height="130" width="130"></canvas>
                     <p>Javascript</p>
                     <br>
                 </div>
-                <div class="col-lg-3 centered">
+                <div class="col-lg-3 center">
                     <canvas id="bootstrap" height="130" width="130"></canvas>
                     <p>Bootstrap</p>
                     <br>
                 </div>
-                <div class="col-lg-3 centered">
+                <div class="col-lg-3 center">
                     <canvas id="java" height="130" width="130"></canvas>
                     <p>Java</p>
                     <br>
                 </div>
 
-                <div class="col-lg-3 col-lg-offset-3 centered">
+                <div class="col-lg-3 col-lg-offset-3 center">
                     <canvas id="html" height="130" width="130"></canvas>
                     <p>HTML/CSS</p>
                     <br>
                 </div>
-                <div class="col-lg-3 centered">
+                <div class="col-lg-3 center">
                     <canvas id="php" height="130" width="130"></canvas>
                     <p>PHP</p>
                     <br>
                 </div>
-                <div class="col-lg-3 centered">
+                <div class="col-lg-3 center">
                     <canvas id="python" height="130" width="130"></canvas>
                     <p>Python</p>
                     <br>
@@ -270,7 +270,7 @@
                 </div>
 
                 <div class="col-lg-6 col-lg-offset-3">
-                    <p><img class="img-responsive" src="img/pro02.png" alt=""></p>
+                    <p><img class="img-responsive" src="img/pro02.jpg" alt=""></p>
                 </div>
                 <div class="col-lg-3">
                     <p>Titre projet</p>
@@ -283,7 +283,7 @@
                 </div>
 
                 <div class="col-lg-6 col-lg-offset-3">
-                    <p><img class="img-responsive" src="img/pro03.png" alt=""></p>
+                    <p><img class="img-responsive" src="img/pro03.jpg" alt=""></p>
                 </div>
                 <div class="col-lg-3">
                     <p>Titre projet</p>
@@ -329,30 +329,30 @@
                     </div>
                     <div class="col-lg-6">
                         <p>
-                            <sm>Formulaire de contact</sm>
+                            <t>Formulaire de contact</t>
                         </p>
                         <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
 
                             <div class="form-group">
                                 <label for="contact-name">Votre Nom</label>
                                 <input type="name" name="name" class="form-control" id="contact-name" placeholder="Votre Nom" data-rule="minlen:4" data-msg="S'il vous plaît, entrez les 4 premiers caractères.">
-                                <div class="validate"></div>
+                                <div class="valide"></div>
                             </div>
                             <div class="form-group">
                                 <label for="contact-email">Votre Email</label>
                                 <input type="email" name="email" class="form-control" id="contact-email" placeholder="Votre Email" data-rule="email" data-msg="S'il vous plaît, entrez un email valide.">
-                                <div class="validate"></div>
+                                <div class="valide"></div>
                             </div>
                             <div class="form-group">
                                 <label for="contact-subject">Sujet</label>
                                 <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Sujet" data-rule="minlen:4" data-msg="S'il vous plaît, entrez les 4 premiers caractères.">
-                                <div class="validate"></div>
+                                <div class="valide"></div>
                             </div>
 
                             <div class="form-group">
                                 <label for="contact-message">Votre message</label>
                                 <textarea class="form-control" name="message" id="contact-message" placeholder="Votre Message" rows="5" data-rule="required" data-msg="Merci d'écrire quelque chose ici."></textarea>
-                                <div class="validate"></div>
+                                <div class="valide"></div>
                             </div>
 
                             <div class="loading"></div>
@@ -379,8 +379,10 @@
         </div>
     </div>
     </div>
-    <script src="libraries/chart/chart.js"></script>
     <script src="libraries/php-mail-form/php.js"></script>
+    <script src="libraries/jquery/jquery.min.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libraries/chart/chart.js"></script>
     <script src="js/main.js"></script>
 </body>
 
