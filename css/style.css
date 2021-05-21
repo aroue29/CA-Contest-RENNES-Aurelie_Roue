@@ -1,6 +1,6 @@
 body {
     background-color: #f2f2f2;
-    font-family: Helvetica;
+    font-family: 'KoHo', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Arial;
+    font-family: Helvetica;
     font-weight: 400;
     color: #470303;
 }
@@ -71,7 +71,7 @@ hr {
     margin: 1em 0;
     padding: 0;
     animation-name: taille;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-timing-function: linear;
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
@@ -99,7 +99,7 @@ hr {
     right: 0;
     z-index: 10000;
     overflow: visible;
-    font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: normal 16px/24px 'KoHo';
 }
 
 #section-topbar a {
@@ -130,7 +130,7 @@ hr {
 
 #section-topbar ul#nav a {
     display: block;
-    font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: normal 11px/18px 'KoHo', sans-serif;
     text-decoration: none;
     padding: 18px 20px 18px 20px;
     border-left: 1px solid rgb(12, 12, 12);
@@ -194,9 +194,58 @@ hr {
 }
 
 #headerwrap h3 {
-    font-size: 20px;
+    font-size: 18px;
     text-shadow: 1px 1px #000000a3;
     color: white;
+}
+
+
+/*Cadre*/
+
+@keyframes tipsy {
+    0 {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+    100% {
+        transform: translateX(-50%) translateY(-50%) rotate(360deg);
+    }
+}
+
+#frame {
+    color: #fffbf1;
+    text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+    font-size: 80px;
+    text-decoration: none;
+    letter-spacing: -1px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-2%);
+}
+
+#frame:before,
+#frame:after {
+    content: '';
+    padding: 1.9em .9em;
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    top: 50%;
+    display: block;
+    border: 12px solid red;
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    animation: 15s infinite alternate ease-in-out tipsy;
+}
+
+#frame:before {
+    border-color: #d9524a #d9524a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    z-index: -1;
+}
+
+#frame:after {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;
+    box-shadow: 15px 15px 15px rgba(46, 46, 49, .8);
 }
 
 
