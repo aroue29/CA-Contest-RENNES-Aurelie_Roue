@@ -30,6 +30,10 @@ p {
     margin-bottom: 25px;
 }
 
+.justify-p {
+    text-align: justify;
+}
+
 .center {
     text-align: center;
 }
@@ -118,6 +122,7 @@ hr {
     margin: 0;
     padding: 0;
     border-right: 1px solid rgb(12, 12, 12);
+    border-radius: 10px;
     zoom: 1;
     *display: inline;
 }
@@ -134,23 +139,27 @@ hr {
     text-decoration: none;
     padding: 18px 20px 18px 20px;
     border-left: 1px solid rgb(12, 12, 12);
+    border-radius: 10px;
 }
 
 #section-topbar ul#nav a:focus {
     background: #bd2828;
     text-decoration: none;
     border-left: 1px solid #111;
+    border-radius: 10px;
 }
 
 #section-topbar ul#nav a:hover {
     background: #5a2525;
     text-decoration: none;
     border-left: 1px solid #111;
+    border-radius: 10px;
 }
 
 #section-topbar ul#nav .active a {
     background: #5a2525;
     border-left: 1px solid #111;
+    border-radius: 10px;
 }
 
 #section-topbar ul#nav .active a:hover {
@@ -343,6 +352,7 @@ p {
 .desc imp {
     padding: 6px;
     color: white;
+    border-radius: 10px;
     background: #470303;
 }
 
