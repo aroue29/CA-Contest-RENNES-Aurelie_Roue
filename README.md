@@ -21,7 +21,7 @@ Afin de réaliser ce projet des librairies ont été exploités.
 - jQuery JavaScript Library v1.12.4
 
 ## License
-Toutes les images du projet sont libre de droits afin d'éviter tout problème juridique.
+L'illustration du Header est une image libre de droits afin d'éviter tout problème juridique.
 
 ## Contributeurs
 * Aurélie Roué (B1 SWITCH IT)
